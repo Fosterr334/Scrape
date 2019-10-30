@@ -14,7 +14,7 @@ var cheerio = require("cheerio");
 var db = require("./models");
 
 // The port for localhost
-var PORT = 3000;
+var PORT = rocess.env.PORT || 3000
 
 //Starts express
 var app = express();
