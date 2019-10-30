@@ -47,10 +47,10 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //Connect to the mongo DB with mongoose
-mongoose.connect("mongodb://localhost/scrapedDB", { useUrlNewParser: true })
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/scrapedDB"
+mongoose.connect(MONGODB_URI);
 
     // Create the routes
-    /
     app.get("/scraping", function (req, res) {
         mongoose.connection.db.dropDatabase;
         axios.get("https://www.roguerocket.com/")
