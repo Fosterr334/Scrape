@@ -1,0 +1,80 @@
+body { 
+    background-color : whitesmoke 
+}
+#wrapper {
+    width            : 960px;
+    margin-left      : auto;
+    margin-right     : auto;
+    padding-top      : 5%;
+}
+#articles {
+    display          : inline-block;
+    margin-left      : 10%;
+    overflow         : auto;
+    width            : 60%;
+    height           : 700px;
+}
+#notes {
+    float            : right;
+    width            : 30%;
+}
+textarea, input {
+    display          : block;
+    width            : 100%;
+    background-color : #98ffcc;
+}
+input {
+    color            : gray;
+    height           : 36px;
+    font-size        : 24px;
+}
+textarea {
+    color            : gray;
+    height           : 200px;
+    font-size        : 18px;
+}
+#scrape{
+    color            : grey;
+    margin-left      : 10.5%;
+    border-radius    : 12px;
+    background-color: #98ffcc
+}
+#Lside{
+    height           : 100%;
+    width            : 260px;
+    position         : fixed;
+    z-index          : 1;
+    top              : 0;
+    left             : 0;
+    background-color : #98ffcc;
+    overflow-x       : hidden;
+    padding-top      : 20px;
+}
+#Rside{
+    height           : 100%;
+    width            : 260px;
+    position         : fixed;
+    z-index          : 1;
+    top              : 0;
+    right            : 0;
+    background-color : #98ffcc;
+    overflow-x       : hidden;
+    padding-top      : 20px;
+}
+#MainHeader{
+    color            : gray;
+    margin-left      : 11%; 
+}
+#NoteHeader{
+    color            : gray;
+}
+.ArticleEffect{
+    border-style     : double;
+    color            : gray;
+}
+#savenote{
+    color            : grey;
+    margin-left      : 31%;
+    border-radius    : 12px;
+    background-color: #98ffcc
+}
