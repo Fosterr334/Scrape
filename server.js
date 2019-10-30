@@ -1,4 +1,4 @@
-// grabbing the libraries
+// grabbing the librariess
 
 // grabs express framework to build server
 var express = require("express");
